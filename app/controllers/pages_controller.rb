@@ -3,23 +3,4 @@ class PagesController < ApplicationController
 
     render ({ template: "dice/home"})
   end
-
-  def
-
-    render ({ template: "dice/home"})
-  end
-
-  def
-
-    render ({ template: "dice/home"})
-  end
-
-  def
-
-    render ({ template: "dice/home"})
-  end
-
-  def
-    render ({ template: "dice/home"})
-  end
 end
