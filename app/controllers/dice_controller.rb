@@ -5,7 +5,7 @@ class DiceController < ApplicationController
   end
 
   def two_six
-    
+
     render({ :template => "dice/2d6" })
   end
 
@@ -19,5 +19,6 @@ class DiceController < ApplicationController
 
   def five_four
     render({ :template => "dice/5d4" })
+  end
 
 end
