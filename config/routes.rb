@@ -8,5 +8,4 @@ Rails.application.routes.draw do
   get("/dice/1/20", { :controller => "dice", :action => "one_twenty" })
 
   get("/dice/5/4", { :controller => "dice", :action => "five_four" })
-
 end

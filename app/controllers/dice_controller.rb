@@ -5,6 +5,7 @@ class DiceController < ApplicationController
   end
 
   def two_six
+    
     render({ :template => "dice/2d6" })
   end
 
